@@ -11,5 +11,6 @@
   "boss": true,
   "eqnull": true,
   "node": true,
+  "devel": true,
   "es5": false
 }
