@@ -60,8 +60,8 @@
       position: relative;
 
       .rtl & {
-        margin-left: 0;
-        margin-right: 40px;
+        margin-left: 40px;
+        margin-right: 0;
       }
       
       a{
@@ -92,6 +92,10 @@
         float:left;
         height: 20px;
         width: 25px;
+
+        .rtl & {
+          float: right;
+        }
       }
 
       &:hover{
@@ -99,6 +103,33 @@
         .name{
           color:#FFF;
         }
+      }
+    }
+  }
+
+  .switchers {
+    margin-top: 20px;
+    display: block;
+    margin-left: 15px;
+
+    .rtl & {
+      margin-right: 15px;
+      margin-left: 0;
+    }
+
+    .switch-title {
+      float: right;
+
+      .rtl & {
+        float: left;
+      }
+    }
+
+    .switch-button {
+      float: left;
+
+      .rtl & {
+        float: right;
       }
     }
   }
