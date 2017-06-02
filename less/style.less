@@ -9,6 +9,11 @@
   width: 280px;
   border-radius:3px  0 0 3px;
 
+  .rtl & {
+    right: auto;
+    left: -280px;
+  }
+
   .toggle{
     top: 14px;
     font-size: 18px;
@@ -21,6 +26,12 @@
     height: 40px;
     position: absolute;
     border-radius:3px  0 0 3px;
+
+    .rtl & {
+      left: auto;
+      right: -38px;
+      border-radius: 0 3px 3px 0;
+    }
   }
 
   .desc{
@@ -47,6 +58,11 @@
       display: block;
       width: 100%;
       position: relative;
+
+      .rtl & {
+        margin-left: 0;
+        margin-right: 40px;
+      }
       
       a{
         outline: none;
