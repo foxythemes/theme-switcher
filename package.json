@@ -1,18 +1,13 @@
 {
-  "name": "theme-switcher",
+  "name": "@foxythemes/theme-switcher",
   "description": "A theme swticher script for admin templates.",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "homepage": "https://bitbucket.org/foxythemes/theme-switcher/admin",
   "author": "Foxy Themes (http://foxythemes.net/)",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/foxythemes/theme-switcher.git"
   },
-  "licenses": [
-    {
-      "type": "Private"
-    }
-  ],
   "main": "lib/theme-switcher.js",
   "engines": {
     "node": ">= 0.6.0"
