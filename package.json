@@ -6,7 +6,7 @@
   "author": "Foxy Themes (http://foxythemes.net/)",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/foxythemes/theme-switcher.git"
+    "url": "https://github.com/foxythemes/theme-switcher"
   },
   "main": "lib/theme-switcher.js",
   "engines": {
@@ -30,6 +30,5 @@
   },
   "directories": {
     "lib": "lib"
-  },
-  "license": "ISC"
+  }
 }
